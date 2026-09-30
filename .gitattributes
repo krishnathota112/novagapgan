@@ -1,0 +1,15 @@
+# shell scripts must keep LF endings to run on macOS / Linux; batch files keep CRLF
+*.sh   text eol=lf
+*.bat  text eol=crlf
+
+# data and models
+*.pt   binary
+*.nc   binary
+*.npz  binary
+*.tif  binary
+*.png  binary
+*.shp  binary
+*.shx  binary
+*.dbf  binary
+*.sbn  binary
+*.sbx  binary

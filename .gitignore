@@ -1,0 +1,15 @@
+# local environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# made by the app / training at run time
+temp_app_files/
+feature_cache/
+models_25ep/
+models_200ep/
+*.log
+
+# raw NOAA swath zips (7 GB, not needed to run the app)
+n18_*.zip
+n19_*.zip
